@@ -13,7 +13,7 @@ export default function Rolling() {
     }
 
     try {
-      const response = await fetch("http://localhost:4000/rolling", {
+      const response = await fetch(https://rolling-backend-jwuu.onrender.com/rolling", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
